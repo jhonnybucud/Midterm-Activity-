@@ -1,0 +1,17 @@
+# Step 1: Create the list
+my_list = []
+
+for x in range(1, 10):
+    my_list.append(x)
+
+# Step 2: Print original list
+print("Original list:", my_list)
+
+# Step 3: Print length
+print("Length of list:", len(my_list))
+
+# Step 4: Get unique elements
+unique_list = list(set(my_list))
+
+print("The list with unique elements only.")
+print(unique_list)

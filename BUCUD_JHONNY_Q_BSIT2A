@@ -1,0 +1,12 @@
+class Profile:
+...     def introduce(self):
+...         
+...         name = input('What is your name? ')
+...         age = input('How old are you? ')
+...         height = input('What is your height? ')
+...         color = input('What is your favorite color? ')
+...         print('Hi! My name is ' + name + ', I am ' +
+...         age + ', My height is ' + height + 'cm, My favorite color is ' + color + ',')
+... p=Profile()
+... p.introduce()
+
